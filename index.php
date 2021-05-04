@@ -56,15 +56,15 @@
 
         ],
 
-        'Napoli' => [
+        'Manfredonia' => [
 
           'Teams' => [
-            'Napoli',
-            'Palermo'
+            'Manfredonia',
+            'Venezia'
           ],
           'score' => [
-            '2',
-            '3'
+            '89',
+            '0'
           ]
 
         ]
