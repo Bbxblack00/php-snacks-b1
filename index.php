@@ -70,6 +70,12 @@
         ]
       ];
 
+      echo '<h1>' . count($index) . '</h1>';
+
+      // for ($i=0; $i < count($index); $i++) {
+      //   // code...
+      // }
+
     ?>
   </body>
 </html>
