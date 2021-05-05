@@ -7,8 +7,10 @@
 
     body{
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
+      flex-direction: column;
+
 
       background-color: darkorange;
 
@@ -70,11 +72,19 @@
         ]
       ];
 
-      echo '<h1>' . count($index) . '</h1>';
+      // echo '<h1>' . count($index) . '</h1>';
 
       // for ($i=0; $i < count($index); $i++) {
-      //   // code...
+      //   $firstMach = $index[0];
+      //   $secondMach = $index[1];
+      //   $thirdMach = $index[2];
+      //
+      //   echo $fisrtMach[];
       // }
+
+      foreach ($index as $mach) {
+        echo "<h1>" . $mach['Teams'][0] . ' - ' . $mach['Teams'][1] . ' | ' . $mach['score'][0] . '-'. $mach['score'][1] . '</h1>';
+      }
 
     ?>
   </body>
